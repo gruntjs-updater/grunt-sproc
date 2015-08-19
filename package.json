@@ -1,0 +1,48 @@
+{
+  "name": "grunt-sproc",
+  "description": "Run sproc definitions on change.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Joe Mills",
+    "email": "mills.joe@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/blargism/tccadmin.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "files": [
+    "tasks"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-nodeunit": "^0.3.3"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "pg": "^4.3.0"
+  }
+}
